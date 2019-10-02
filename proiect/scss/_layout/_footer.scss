@@ -1,0 +1,97 @@
+//* FOOTER OF THE PAGES*/
+footer{
+	margin-top: 30px;
+	ul{
+		list-style: none;
+	}
+	ul li a{
+		color: $font-grey;
+	}
+}
+.top-footer{
+	background-color: $grey;
+	margin-bottom: 0px;
+	color: $font-grey;
+	padding: 20px;
+	p{
+		font-size: 0.75em;
+		margin: 3px 0;
+		font-weight: 600;
+	}
+	a{
+		color: $primary_color;
+	}
+	.text-widget{
+		text-align: justify;
+	}
+	img{
+		margin: 3px;
+	}
+	ul li{
+		margin: 0 5px;
+	}
+	input{
+		background-color: $light-grey;
+		border: none;
+		height: 35px;
+		padding: 0 5px;
+		margin-top: 5px;
+		width: 200px;
+	}
+	button{
+		background-image: url('../img/send-button.jpg');
+		border: none;
+		width: 35px;
+		height: 35px;
+		text-indent: -9999px;
+	}
+	h4{
+		font-size: 0.875em;
+		font-weight: bold;
+	}
+}
+.bottom-footer{
+	padding: 20px;
+	background-color: $light-grey;
+	
+	font-size: 0.75em;
+	ul{
+		margin-top: 20px;
+	}
+	ul li{
+		padding: 0 2px;
+		
+	}
+	p, a{
+		color: $font-grey;
+	}
+	p{
+		margin: 0;
+		padding: 2px 0;
+	}
+}
+.flick-widget{
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 10%;
+  padding: 0 2px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.imageContainer{
+	img {
+    transition:transform 0.25s ease;
+}
+
+}
+}

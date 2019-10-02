@@ -1,0 +1,67 @@
+/* Fonts*/
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/Aller_Std_Rg.eot');/*Internet Explorer*/;
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/Aller_Std_Rg.ttf'); /*other browsers*/;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* BASE STYLES*/
+body{
+    font-family: Aller;
+    background-color: #ebe7df;
+}
+/*MEDIA QUERIES*/
+   
+@media (max-width: 1200px){
+  .product-info p{
+    font-size: 1em;
+    margin-left: 80px;
+  }
+  .specials{
+        .specials-link{
+        font-size: 1em;
+      }
+  }
+  .slider-text,
+  .flick-widget{
+    display: none;
+  }
+}
+@media (max-width: 1005px){
+    .navbar, .cart, .wishlist{
+        font-size: 0.7em;
+    }
+    nav ul{
+        margin-left: 0;
+    }
+    nav ul li{
+        padding: 15px 5px 20px 5px;
+    }
+    header .login{
+        font-size: 0.7em;
+    }
+    .specials img{
+        width: 90%;
+    }
+    .product-price{
+        margin: 0px 0 0 0px;
+        padding: 20px 5px;
+    }   
+}
+
+@media (max-width: 780px){
+    .product {
+        display: block;
+        flex: none;
+        max-width: 100%;
+        width: 100%;
+    }
+}

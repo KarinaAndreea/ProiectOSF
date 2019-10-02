@@ -1,0 +1,91 @@
+/* HEADER OF THE PAGES*/
+header{
+	background-color: $grey;
+	.navbar-brand{
+		color: $primary-color;
+		font-size: 1.625em;
+	}
+	input{
+		background: $grey;
+		border: none;
+		margin-right: 20px;
+	}
+	&::placeholder {
+		font-size: 0.87em;
+		text-align: center;
+		color:$font-grey;
+	}
+	
+	
+	.login{
+		font-size: 0.9em;
+		color: $font-grey;
+		margin-top: 2px;
+	}
+}
+
+/* NAVIGATION */
+.navbar{
+	padding-top: 0px;
+	.icon {
+    display: none;
+}
+}
+
+nav{
+	background-color: $white;
+	padding: 0;
+	ul{
+		list-style: none;
+		margin-left: 30px;
+		margin-bottom: -15px;
+		border-right: solid 1px #eee;
+	}
+	ul li {
+		border-left: solid 1px #eee;
+		padding: 15px 0 20px 20px;
+	}
+	ul li a{
+		color: $grey;
+		font-size: 1em;
+		font-weight: 500;
+	   	}
+	a{
+		margin-top: 5px;
+	}
+	a:hover{
+			text-decoration: none;
+			color:$primary-color;
+		}
+	.cart{
+		margin-top: 0;
+		border-left: solid 1px #eee;
+		border-right: solid 1px #eee;
+		padding: 20px 30px;
+
+	}
+		.cart-number{
+		background-color: $primary-color;
+		border-radius: 3px;
+		color: $white;
+		padding: 2px 5px;
+		font-size: 0.75em;
+		font-family: "Aller";
+	}
+	.wishlist{
+		
+		margin-top: 0px;
+		border-left: solid 1px #eee;
+		padding: 20px 30px;
+	}
+	.wishlist-number{
+		background-color: #adadad;
+		border-radius: 3px;
+		color: $white;
+		padding: 2px 5px;
+		font-size: 0.75em;
+		font-family: "Aller";
+		margin-left: 5px;
+	}
+	
+}
